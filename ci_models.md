@@ -2,7 +2,7 @@
 
 
 
-###### tags: `封裝查詢`
+###### tags: `封裝查詢` `PHP` `CI`
 
 
 在Model 撰寫查詢語法時，
@@ -19,7 +19,7 @@
 
 PDO
 
-```
+```typescript
 //較不好
 
 $sql = "SELECT 
@@ -36,8 +36,9 @@ $sql = "SELECT
 
 
 
-```
+``````typescript
 //較安全
 
 $this->db->query($sql, array(3, 'live', 'Rick'));
+
 ```
