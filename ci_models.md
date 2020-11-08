@@ -19,7 +19,7 @@
 
 PDO
 
-```typescript
+``````typescript
 //較不好
 
 $sql = "SELECT 
@@ -32,7 +32,7 @@ $sql = "SELECT
             status = ? 
         AND 
             author = ?"; 
-```
+``````
 
 
 
@@ -41,4 +41,4 @@ $sql = "SELECT
 
 $this->db->query($sql, array(3, 'live', 'Rick'));
 
-```
+``````
